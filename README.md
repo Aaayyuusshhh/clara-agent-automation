@@ -180,6 +180,48 @@ This mirrors how conversational agents evolve as businesses provide additional c
 
 ---
 
+## Setup and Run
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/clara-agent-automation.git
+
+2. Navigate to the project directory
+
+cd clara-agent-automation
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the pipeline scripts
+
+python scripts/extract_demo.py  
+python scripts/generate_agent_spec.py  
+python scripts/transcribe_onboarding.py  
+python scripts/update_agent.py
+
+## Setup and Run
+
+1. Clone the repository
+
+git clone https://github.com/yourusername/clara-agent-automation.git
+
+2. Navigate to the project directory
+
+cd clara-agent-automation
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the pipeline scripts
+
+python scripts/extract_demo.py  
+python scripts/generate_agent_spec.py  
+python scripts/transcribe_onboarding.py  
+python scripts/update_agent.py
+
 # Author
 
 **Aayush Katyal**<br>
