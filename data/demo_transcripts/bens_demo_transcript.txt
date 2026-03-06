@@ -1,0 +1,82 @@
+Speaker 1 • 00:02 
+All right, well let Ben in now in three, two, one. And he's in. 
+Speaker 2 • 00:16 
+Hey, Ben, can you hear me? 
+Speaker 3 • 00:22 
+Wait, can you hear me? Yeah. 
+Speaker 2 • 00:24 
+Yeah, I can. Perfect. 
+Speaker 3 • 00:25 
+Here we go. 
+Speaker 2 • 00:26 
+Okay, Ben, thank you so much for joining on such a short notice. And before starting, just wanted to introduce myself again. I'm Nick. I am part of the Clara team. We reach out to businesses across North America, and we have built this Al agents for trades, businesses specifically. And to help us with that, I have here with me my colleague Bharat, who's the solutions expert and the growth partner at Clara Al and he's the best person who knows everything in and out about the industry as well as the product. So he'll be the one who will be walking us through the presentation today. Over to you, Bharat. 
+Speaker 1 • 01:06 
+Thank you, Nick. Ben, good morning. How are you? 
+Speaker 3 • 01:09
+ I'm doing very well. How are you? 
+Speaker 1 • 01:11 
+Very well. Really excited about our conversation and I'm glad that were able to do it earlier because sooner rather 
+than better about everything. Right? 
+Speaker 3 • 01:18 
+Absolutely. That's what I thought, too, so. 
+Speaker 1 • 01:21 
+And I hope we have enough time to have a conversation. I hope you're not in a rush to probably hop off somewhere or. 
+Speaker 3 • 01:27 
+I am always in a rush, but no, we've got time. 
+Speaker 1 • 01:30 
+Great. So let me start off by introducing myself and my company, what we do. And after that, we'd love to know a little about you as well, since it's the first time we've connected. And then we'll dive into what we're doing, and then we'll do a demo of our platform, and then we'll see how things go from there. Sounds good. Okay. So I am Bharat. I work with Nick and a few other folks, so we're a very lean team. And I represent the solutions team here at Clara. What I do day in and day out, Ben, is I speak to contractors such as yourself, understand your workflows, see how you're doing things right now, which I'm sure is at a very optimal level of doing things efficiently. 
+Speaker 1 • 02:14 
+But after understanding, I see, where can we plug in our solution to further enhance the way of you do things Right. And that's what I'll be doing here today as well. And a little about the company so we started a while ago. It's been close to three years now. And why we started, what we. We do today is because we saw Al taking over the world. I'm sure you also have heard. 
+Speaker 3 • 02:38 
+It's everywhere. Yeah. 
+Speaker 1 • 02:42
+ What we saw, however, was AI was penetrating really deeply into the white collar Business, you know, all the Fortune 5 ones of the world are using it, which is absolutely fine. The trades, however, you know, the blue collar industry didn't see a lot of penetration as compared to the white collar industry. That's how our journey began. We started speaking to a lot of contractors and realized there are a lot of opportunities for us to work. Now what those opportunities are, what we picked up from there, what we actually built, is something I'm going to show you in just a bit, but I'll pause here.
+we started speaking to a lot of contractors and realized there are a lot or opportunities for us to work. Now what those opportunities are, what we picked up from there, what we actually built, is something I'm going to show you in just a bit, but I'll pause here. 
+Speaker 3 ▪ 03:09 
+Sure. 
+Speaker 1 ▪ 03:10 
+And I'd love to know a little about you. You know, how long have you been in this business and anything that you might have to share, I'm all yours. 
+Speaker 3 ▪ 03:15 
+Oh yeah. No, I mean, I've been working for myself for about eight years now. And it's fun. 
+Speaker 1 ▪ 03:23
+Right. 
+Speaker 3 • 03:23 
+I've been an electrician for 30 years, running my own business for, like I said, the last eight. Sorry. I'm gonna try and grow pretty. Try and grow a little bit bigger here this year. You know, we're, we've been relatively small. 
+Speaker 1 ▪ 03:37 
+Right. 
+Speaker 3 ▪ 03:37 
+I just have a couple guys, couple vans out on the road. Do a lot of the, pretty much all the admin and back end stuff myself. Right. Which is going fine. But as we get busier, you know, I've got to get some help here. So I've actually got another guy who's going to be coming on as a operations manager to help me out with all of that sort of stuff. Right. Yeah, that's about it. You know, I've dabbled with having a virtual receptionist like. Yeah. And that didn't go great. But I probably didn't really know how to use her properly either. 
+Speaker 1 ▪ 04:13
+ So. 
+Speaker 3 • 04:16 
+Virtual assistant, I should say not virtual reception, which actually might be an interesting thing. I've tried looking into like a different phone system so I could have an app for everybody from my team to have like a one company line. But it was really weird the app that we had, it gave us. Everybody was assigned a different number and nobody ever answered the phone because they were all. They all look like spam. They all. It just looked like a weird foreign number. Like different names came up. So that was a shifty experience too. So sorry, pardon my language. We shut that down right quick. So, you know, that's what it is. I mean we're pretty basic. I've got a software called Jobber that runs on my CRM and it's fantastic. It really helps out a lot. 
+Speaker1 • 05:00 
+Okay. 
+Speaker 3 • 05:01
+Yeah, that's us. 
+Speaker 1 • 05:03 
+That's quite Helpful and thank you for sharing so much in so little time. Covered quite a lot of things there. So jobbers, your CRM, great, we're familiar with that. And the reason why we're familiar with that is because the folks who started this company have 15 to 20 years of experience in the trades business themselves. They are contractors, they are folks who are building tech. So it's a, an interjection of all of that is how the founder actually started on this journey. So great. I'm, I'm familiar with how Jobo works. You mentioned that you have a couple of trucks out in the field. So you have what, four people working for you today out in the field or. 
+Speaker 3 • 05:36 
+I've got, I've got two company works vans. I'm getting a third one on the road at the end of the week here. So I'll have three company work vans and then I've got a two subcontractors I use. So about four vans on the road typically is what we're going to be operating by the end of the year. I want to have five. 
+Speaker 1 • 05:59 
+Lovely. And so you mentioned you have subcontractors, people who join and I'm assuming for certain projects, certain tasks. 
+Speaker 3 • 06:05 
+Speaker 3: 06:05 
+ I'm assuming, yeah, pretty much. I've got, you know, when we get busy I bring in subcontractors to take in the overflow work. So I mean, I've had one guy working basically full time for me as a subcontractor. Subcontractors are great because they're generally pretty good electricians who think, you know, that's where they're working on their own. They're also not as reliable because when they get their own jobs sometimes they don't get very much notice. So that's why we're getting another company van on the road because I'm definitely busy enough to have three full time guys pick up the subs, scroll back a little bit of their work, but keep them going and so on and so forth.
+Speaker 3 • 06:05 
+I'm assuming, yeah, pretty much. I've got, you know, when we get busy I bring in subcontractors to take in the overflow work. So I mean, I've had one guy working basically full time for me as a subcontractor. Subcontractors are great because they're generally pretty good electricians who think, you know, that's where they're working on their own. They're also not as reliable because when they get their own jobs sometimes they don't get very much notice. So that's why we're getting another company van on the road because I'm definitely busy enough to have three full time guys pick up the subs, scroll back a little bit of their work, but keep them going and so on and so forth. 
+Speaker 1 • 06:41 
+Great. So subcontractors come in and come out. You have of course, somebody who's been with you consistently. But if you talk about the full time guys, full time electricians, like journeyman or do you have a few of them as well with you? 
+Speaker 3 • 06:53 
+Yeah. So each van will have has a full time journeyman. So I've got three journeymen and then I'll have one apprentice. Actually I just laid off an apprentice so I have to be getting another apprentice here pretty soon. 
+Speaker 1 • 07:03 
+Got it. So you have like a team of four people, including you, and then you have Four. 
+Speaker 3 • 07:07 
+Four plus me, plus a subcontractor. And then I'm also bringing in like a management guy to help me out with some estimating and stuff. 
+Speaker1 • 07:15
+Very cool. Okay. 
+Speaker 3 • 07:16 
+So, yeah, pretty close to having five, I guess, employees, plus myself in a sub. 
+Speaker 1 • 07:22 
+Lovely. So all. All the other folks, if I've gotten that correctly, are usually out in the field. I'm assuming that is where you're the one who's taking care of the entire office.
+

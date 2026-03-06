@@ -1,0 +1,37 @@
+{
+  "account_id": "bens_electric",
+  "company_name": "Ben's Electric",
+  "business_hours": {
+    "days": null,
+    "start": null,
+    "end": null,
+    "timezone": null
+  },
+  "office_address": null,
+  "services_supported": [
+    "Residential electrical work",
+    "Commercial electrical work",
+    "Electrical service calls",
+    "Electrical projects"
+  ],
+  "emergency_definition": [
+    "Urgent electrical issues",
+    "After-hours service calls"
+  ],
+  "emergency_routing_rules": "Attempt transfer to Ben or on-call electrician",
+  "non_emergency_routing_rules": "Collect job details and schedule service call",
+  "call_transfer_rules": "Transfer urgent calls to business owner if available",
+  "integration_constraints": [
+    "Uses Jobber CRM"
+  ],
+  "after_hours_flow_summary": "Emergency calls should attempt transfer to the on-call electrician. Non-urgent calls should be logged for next-day follow-up.",
+  "office_hours_flow_summary": "Collect caller information, identify service type, schedule service call or transfer if urgent.",
+  "questions_or_unknowns": [
+    "Exact business hours",
+    "Primary business phone number",
+    "Office address",
+    "Definition of emergency vs non emergency",
+    "Preferred call routing during business hours"
+  ],
+  "notes": "Company run by Ben Penoyer. Small electrical contractor with around 3 vans and subcontractors. Planning to expand operations."
+}

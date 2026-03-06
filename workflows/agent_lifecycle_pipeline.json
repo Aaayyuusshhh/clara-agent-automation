@@ -1,0 +1,220 @@
+{
+  "name": "AI Receptionist Agent Lifecycle Automation",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -80,
+        0
+      ],
+      "id": "8d6648f2-2fcb-43e4-ad55-61f8c46e9fbe",
+      "name": "Manual Trigger"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "959bed0b-f535-4cc3-8fec-d397b066d022",
+              "name": "step",
+              "value": "Process demo call transcript and extract business information",
+              "type": "string"
+            },
+            {
+              "id": "8d4a29cd-61e5-40ae-8c09-7b9f70f6506f",
+              "name": "script",
+              "value": "extract_demo.py",
+              "type": "string"
+            },
+            {
+              "id": "5b1aa2d0-8720-4f9c-9932-20646302f146",
+              "name": "output",
+              "value": "memo.json",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        208,
+        0
+      ],
+      "id": "9944a7a5-5670-47a0-94b8-9038a8899121",
+      "name": "Extract Business Context from Demo",
+      "notes": "Parses demo call transcript and extracts structured business data including services, routing rules, and operational context."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c816152d-12f3-4e6c-a38b-baf832d6e707",
+              "name": "step",
+              "value": "Generate AI receptionist configuration from extracted business memo",
+              "type": "string"
+            },
+            {
+              "id": "30a2b48d-fefa-40b7-8ca2-cf37c4a195e3",
+              "name": "script",
+              "value": "generate_agent_spec.py",
+              "type": "string"
+            },
+            {
+              "id": "54589e8b-05c2-4eb3-9b89-d4b508389f1a",
+              "name": "output",
+              "value": "agent_spec.json",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        480,
+        0
+      ],
+      "id": "8243d316-c836-41b4-86e9-d13d908939a4",
+      "name": "Generate AI Receptionist Configuration",
+      "notes": "Generates an AI receptionist system prompt and configuration based on extracted business information."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e40cc6b1-177a-482a-ba97-dd21cdc16184",
+              "name": "step",
+              "value": "Transcribe onboarding call audio using Whisper",
+              "type": "string"
+            },
+            {
+              "id": "64d47bd0-5a28-429f-a38b-f059854f3e50",
+              "name": "script",
+              "value": "transcribe_onboarding.py",
+              "type": "string"
+            },
+            {
+              "id": "e9cefb6a-cf25-4ea2-98f9-ee4c8af5556b",
+              "name": "output",
+              "value": "onboarding_transcript.txt",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        768,
+        0
+      ],
+      "id": "32d8b77a-2a69-470a-a3a2-1d04152a6efc",
+      "name": "Transcribe Client Onboarding Call",
+      "notes": "Uses OpenAI Whisper to transcribe the onboarding conversation with the client."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ca24dc02-cc0a-4c01-94eb-866fa27e478d",
+              "name": "step",
+              "value": "Update AI receptionist configuration based on onboarding conversation",
+              "type": "string"
+            },
+            {
+              "id": "c13f3213-079b-4373-ad3b-40e4778a6a70",
+              "name": "script",
+              "value": "update_agent.py",
+              "type": "string"
+            },
+            {
+              "id": "c79f35e1-b143-4efe-acc9-18f785863139",
+              "name": "output",
+              "value": "agent_spec_v2.json",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1056,
+        0
+      ],
+      "id": "b490d7a7-bfb7-4cec-837a-2422cdde3756",
+      "name": "Update Agent Configuration (v2)",
+      "notes": "Updates the AI receptionist configuration based on insights from the onboarding conversation."
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Extract Business Context from Demo",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Business Context from Demo": {
+      "main": [
+        [
+          {
+            "node": "Generate AI Receptionist Configuration",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate AI Receptionist Configuration": {
+      "main": [
+        [
+          {
+            "node": "Transcribe Client Onboarding Call",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transcribe Client Onboarding Call": {
+      "main": [
+        [
+          {
+            "node": "Update Agent Configuration (v2)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "43f8deeb-b3e0-47b9-a93d-af98b237d774",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "116ac2adcbae13c227974f8c93e6b0381b2dcf376b60b1d1f8585b4edddbbed2"
+  },
+  "id": "JW8xvRfu7INR7adg",
+  "tags": []
+}

@@ -1,0 +1,6 @@
+openai-whisper
+pydub
+python-dotenv
+torch
+tqdm
+numpy
