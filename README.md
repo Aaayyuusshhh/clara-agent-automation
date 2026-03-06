@@ -182,6 +182,6 @@ This mirrors how conversational agents evolve as businesses provide additional c
 
 # Author
 
-**Aayush Katyal**
-Computer Science Engineering
+**Aayush Katyal**<br>
+Computer Science Engineering<br>
 Focus on Artificial Intelligence and Machine Learning
